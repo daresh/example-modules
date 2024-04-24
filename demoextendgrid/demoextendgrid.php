@@ -75,7 +75,7 @@ class DemoExtendGrid extends Module
         }
 
         // now we are sure it is Orders index (listing) page where we need our javascript
-        $this->context->controller->addJS('modules/' . $this->name . '/views/js/orders-listing.js');
+        $this->context->controller->addJS($this->_path . '/views/js/orders-listing.js');
     }
 
     /**
